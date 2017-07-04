@@ -59,6 +59,7 @@ class Game:
             elif event.key == K_DOWN:
                 self.player1.move("stop")
 
+
         if self.ser.readable():
             read = self.ser.readline()
             self.ser.flush()
